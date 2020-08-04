@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <!--Input de tipo select-->
+    <form action="../DiplomadoWeb/guardado.html" method="GET">
+    <!--*Value* envia el formulario-->
+    <!--value nulo o vacio nos sirve como placeholder-->
+    <fieldset>
+        <legend>Nombre del formulario</legend>
+        <!--Formulario-->
+        <label for="nombre">Nombre</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe el nombre" >
+        <br><br>
+        <label for="apellidos">Apellidos</label>
+        <br>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Escribe el apellido">
+        <br><br>
+        <label for="email">Correo</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Escribe el correo">
+        <!--Input radio button-->
+        <p>Seleccione un género:</p>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br><br>
+        <select name="Libros" id="libros" required>
+            <option value="">Elije un libro</option>
+            <option value="yo antes de ti">Yo antes de ti</option>
+            <option value="yo después de ti">Yo después de ti</option>
+            <option value="sigo siendo yo">Sigo siendo yo</option>
+            <option value="viaje al centro de la tierra">Viaje al centro de la tierra</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <!--Input ChecBox-->
+        <p>Elije tus pasatiempos</p>
+        <input type="checkbox" id="pasatiempo1" name="pasatiempo1" value="leer">
+            <label for="pasatiempo1">Leer</label>
+            <br>
+            <input type="checkbox" id="pasatiempo2" name="pasatiempo2" value="dibujar">
+            <label for="pasatiempo2">Dibujar</label>
+            <br>
+            <input type="checkbox" id="pasatiempo3" name="pasatiempo3" value="escuchar musica">
+            <label for="pasatiempo3">Escuchar música</label>
+            <br>
+            <input type="checkbox" id="pasatiempo4" name="pasatiempo4" value="ejercitarte">
+            <label for="pasatiempo4">Ejercitarte</label>
+            <br>
+            <input type="checkbox" id="pasatiempo5" name="pasatiempo5" value="baailar">
+            <label for="pasatiempo5">Bailar</label>
+            <br>
+            <input type="checkbox" id="pasatiempo6" name="pasatiempo6" value="cantar">
+            <label for="pasatiempo6">Cantar</label>
+            <br>
+            <br>
+            <br>
+        <!--Input de tipo textarea-->
+            <label for="Comentarios" id="comentarios">Comentarios</label>
+            <br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Ingresa un comentario de tu libro favorito"></textarea>
+                <br>
+                <button type="button" onclick="alert('Bienvenido')">Da click</button>
+                <br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>
