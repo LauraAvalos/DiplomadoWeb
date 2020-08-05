@@ -12,3 +12,26 @@ p {
     text-align: left;
     color: blueviolet;
 }
+
+p.red {
+    text-align: center;
+    color: chocolate;
+}
+
+/*Estilos del párrafo que tiene dos clases*/
+.coral {
+    color: coral;
+}
+
+.large {
+    font-size: 50px;
+}
+
+/*Agrupación de etiquetas para un solo estilo*/
+
+h1, h2, h3, p{
+    text-align: justify;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
