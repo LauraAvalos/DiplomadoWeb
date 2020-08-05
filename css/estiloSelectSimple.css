@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+    color: aqua;
+}
+
+#idParrafo{
+    text-align: right;
+    color: black;
+}
+
+.classParrafo{
+    text-align: left;
+    color: blueviolet;
+}
