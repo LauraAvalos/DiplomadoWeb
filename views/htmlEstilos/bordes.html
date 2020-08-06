@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: lightcyan;
+            background-color: darkslateblue;
+        }
+        .ejem1 {
+            border: 5px solid tomato;
+            text-align: center;
+        }
+
+        .ejem2 {
+            border: 4px dotted forestgreen;
+            text-align: center;
+        }
+
+        div {
+            border: double;
+            text-align: center;
+        }
+
+        div.a {
+            border-bottom: 5px solid springgreen;
+        }
+
+        .b {
+            border-bottom-color: violet;
+        }
+
+        .c {
+            border-radius: 25px;
+        }
+
+        .d {
+            border-radius: 50px 20px;
+        }
+
+        .e {
+            border-right: 5px solid turquoise;
+        }
+
+        .f {
+            border-top-style: dashed;
+        }
+
+        h2.a {
+            text-shadow: 2px 2px #ff0000;
+        }
+
+        /*El tercer valor agrega el difuminado*/
+        h2.b {
+            text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+        }
+
+        .caja1{
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px #888888;
+        }
+
+        .caja2 {
+            box-shadow: 5px 10px 18px darkslateblue;
+        }
+
+        .caja3 {
+            box-shadow: 5px 10px 8px 10px darkslategrey;
+        }
+
+        .caja4 {
+            box-shadow: 5px 5px blueviolet, 10px 10px chartreuse, 15px 15px cyan;
+        }
+
+        .caja5 {
+            box-shadow: 5px 5px 8px blueviolet, 10px 10px 8px chartreuse, 15px 15px 8px cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordes</h1>
+    <div class="ejem1">Borde solido</div>
+    <br>
+    <div class="ejem2">Borde punteado</div>
+    <br>
+    <div>Borde doble</div>
+    <br>
+    <h1>Propiedades de borde</h1>
+    <div class="a">Ejemplo 1</div>
+    <br>
+    <div class="b">Ejemplo 2</div>
+    <br>
+    <div class="c">Ejemplo 3</div>
+    <br>
+    <div class="d">Ejemplo 4</div>
+    <br>
+    <div class="e">Ejemplo 5</div>
+    <br>
+    <div class="f">Ejemplo 6</div>
+    <h1>Sombreados</h1>
+<h2 class="a">Propiedad text-shadow</h2>
+<h2 class="b">Propiedad text-shadow</h2>
+<br>
+<div class="caja1">Sombreado parte inferior</div>
+<br><br>
+<div class="caja2">Sombreado iluminado</div>
+<br><br>
+<div class="caja3">Sombreado iluminado</div>
+<br><br>
+<div class="caja4">Definición de sombras múltiples</div>
+<br><br>
+<div class="caja5">Definición de sombras múltiples con iluminado</div>
+<br><br>
+</body>
+</html>
