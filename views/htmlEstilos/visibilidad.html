@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibilidad</title>
+    <style>
+        h2.a {
+            visibility: visible;
+            font-size: small;
+            color: chocolate;
+            text-align: center;
+        }
+
+        h2.b {
+            visibility: hidden;
+            font-size: small;
+            color: darkblue;
+            text-align: justify;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkred;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!--Este encabezado se va a mostrar normalmente en la página con el estilo vidible-->
+    <h2 class="a">
+    La civilización maya ocupó un extenso territorio que incluía el sureste de México y el norte de América Central; abarcó toda 
+    la península de Yucatán, la totalidad de Guatemala y Belice, así como la porción occidental de Honduras y El Salvador.
+    </h2>
+    <!--Este encabezado no se va a mostrar en pantalla por el estilo hidden-->
+    <h2 class="b">
+    La civilización maya ocupó un extenso territorio que incluía el sureste de México y el norte de América Central; abarcó toda 
+    la península de Yucatán, la totalidad de Guatemala y Belice, así como la porción occidental de Honduras y El Salvador.
+    </h2>
+    <p>Nota: El encabezado oculto todavía ocupa espacio en la página</p>
+</body>
+</html>
